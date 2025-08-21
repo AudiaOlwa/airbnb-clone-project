@@ -158,3 +158,40 @@ This improves the user experience by helping guests quickly find listings that m
 ### 7. **Security & API Protection**
 Implements authentication, authorization, and data validation for all API endpoints.  
 This ensures that sensitive information (e.g., user data and payment details) is handled securely.  
+
+
+## 🔐 API Security
+
+Security is a critical component of the Airbnb Clone project, ensuring that user data, transactions, and platform interactions remain safe.  
+The following measures will be implemented to protect the system:  
+
+### 1. **Authentication**
+- Users must log in with secure credentials (username/email and password).  
+- Tokens (e.g., JWT) will be used to verify user identity for each request.  
+- **Why it matters:** Prevents unauthorized access and ensures only legitimate users can interact with the system.  
+
+### 2. **Authorization**
+- Role-based access control (RBAC) will determine what actions users can perform (e.g., only hosts can create properties, only guests can book).  
+- **Why it matters:** Ensures users only perform actions relevant to their roles, protecting sensitive operations.  
+
+### 3. **Data Validation & Input Sanitization**
+- All incoming data will be validated and sanitized to prevent SQL injection, XSS, and other common vulnerabilities.  
+- **Why it matters:** Protects the database and application logic from malicious inputs.  
+
+### 4. **Rate Limiting**
+- APIs will include request rate limits to prevent brute-force attacks and abuse of resources.  
+- **Why it matters:** Protects against denial-of-service attacks and ensures fair use of the system.  
+
+### 5. **Encryption**
+- Sensitive data (e.g., passwords, payment information) will be encrypted in storage and transmitted over HTTPS.  
+- **Why it matters:** Prevents data leaks and secures transactions against interception.  
+
+### 6. **Secure Payments**
+- Payment APIs will integrate with trusted third-party gateways (e.g., Stripe, PayPal).  
+- **Why it matters:** Ensures financial transactions are processed safely and user payment data is never exposed.  
+
+### 7. **Logging & Monitoring**
+- Security-related events (e.g., failed logins, unusual activity) will be logged and monitored.  
+- **Why it matters:** Helps detect threats early and respond quickly to security breaches.  
+
+---
