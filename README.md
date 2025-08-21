@@ -195,3 +195,24 @@ The following measures will be implemented to protect the system:
 - **Why it matters:** Helps detect threats early and respond quickly to security breaches.  
 
 ---
+
+## ⚙️ CI/CD Pipeline
+
+### What is CI/CD?
+A **CI/CD pipeline** (Continuous Integration / Continuous Deployment) is an automated process that helps developers build, test, and deploy applications more efficiently.  
+- **Continuous Integration (CI):** Ensures that new code changes are automatically tested and merged into the main branch without breaking the application.  
+- **Continuous Deployment (CD):** Automatically delivers tested and verified code into production or staging environments.  
+
+### Why it is Important for this Project
+- 🚀 **Faster Development Cycles:** Automates repetitive tasks like testing and deployment, reducing manual effort.  
+- 🛡️ **Higher Code Quality:** Every code change is validated with automated tests before merging.  
+- 🔄 **Reliability:** Ensures consistent deployments, minimizing the risk of errors during production releases.  
+- 🤝 **Team Collaboration:** Helps multiple developers work together smoothly by integrating changes seamlessly.  
+
+### Tools to Use
+- **GitHub Actions:** For automating testing, linting, and deployment directly from the GitHub repository.  
+- **Docker:** For containerizing the application to ensure consistency across different environments.  
+- **PostgreSQL/MySQL in Docker containers:** To provide reproducible database environments for testing and deployment.  
+- **Optional Add-ons:** Tools like **Heroku, AWS, or DigitalOcean** for deployment.  
+
+---
