@@ -46,3 +46,19 @@ QA Engineer:
 
 Project Manager / Team Lead (optional if applicable):
  Coordinates team efforts, manages timelines, organizes tasks, and ensures effective collaboration among all roles.
+
+## 🛠 Technology Stack
+
+This project integrates several modern technologies to replicate the functionality of Airbnb.  
+Each technology has a specific role in building a scalable, secure, and efficient application.
+
+- **Django**: A high-level Python web framework used to build the backend logic, handle authentication, and create RESTful APIs.  
+- **PostgreSQL / MySQL**: Relational database systems for managing and storing structured data such as users, listings, reservations, and reviews.  
+- **GraphQL**: A query language and runtime that provides flexible and efficient data fetching, allowing clients to request only the data they need.  
+- **HTML, CSS, JavaScript**: Core web technologies for building the frontend user interface and ensuring an interactive experience.  
+- **React (optional)**: A JavaScript library for creating reusable UI components and enhancing the user experience with a dynamic frontend.  
+- **Docker**: A containerization tool used to standardize development environments and simplify application deployment.  
+- **Git & GitHub**: Tools for version control, collaboration, and repository management.  
+- **GitHub Actions (CI/CD)**: A continuous integration and continuous deployment service to automate testing and deployment pipelines.  
+
+---
